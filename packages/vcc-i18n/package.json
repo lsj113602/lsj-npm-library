@@ -1,6 +1,6 @@
 {
   "name": "@ctrip/vcc-i18n",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "信用卡多语言组件封装",
   "keywords": [
     "i18n"
@@ -30,8 +30,11 @@
     "registry": "http://registry.npm.release.ctripcorp.com"
   },
   "scripts": {
-    "test": "node ./__tests__/vcc-i18n.test.js",
-    "build": "rollup -c"
+    "test1": "node ./__tests__/vcc-i18n.test.js",
+    "build": "rollup -c",
+    "clear": "rimraf dist",
+    "test": "jest",
+    "release": "standard-version"
   },
   "dependencies": {
     "@ctrip/vcc-utils": "workspace:^"
