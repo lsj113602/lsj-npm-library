@@ -1,6 +1,6 @@
 {
   "name": "@ctrip/vcc-utils",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "vcc公共工具组件",
   "keywords": [
     "vcc-utils"
@@ -30,8 +30,11 @@
     "registry": "http://registry.npm.release.ctripcorp.com"
   },
   "scripts": {
-    "test": "node ./__tests__/vcc-utils.test.js",
-    "build": "rollup -c"
+    "test1": "node ./__tests__/vcc-utils.test.js",
+    "build": "rollup -c",
+    "clear": "rimraf dist",
+    "test": "jest",
+    "release": "standard-version"
   },
   "dependencies": {
     "lodash": "^4.17.21"
