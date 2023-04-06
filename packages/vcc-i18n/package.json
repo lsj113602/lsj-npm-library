@@ -1,6 +1,6 @@
 {
   "name": "@ctrip/vcc-i18n",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "信用卡多语言组件封装",
   "keywords": [
     "i18n"
