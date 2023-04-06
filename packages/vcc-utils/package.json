@@ -1,0 +1,39 @@
+{
+  "name": "@ctrip/vcc-utils",
+  "version": "1.0.0",
+  "description": "vcc公共工具组件",
+  "keywords": [
+    "vcc-utils"
+  ],
+  "buildOptions": {
+    "name": "vccUtils",
+    "formats": [
+      "esm",
+      "cjs",
+      "umd"
+    ]
+  },
+  "author": "shanjunli <shanjunli@trip.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "index.js",
+  "module": "dist/vcc-utils.esm.js",
+  "unpkg": "dist/vcc-utils.js",
+  "directories": {
+    "src": "src",
+    "test": "__tests__"
+  },
+  "files": [
+    "src"
+  ],
+  "publishConfig": {
+    "registry": "http://registry.npm.release.ctripcorp.com"
+  },
+  "scripts": {
+    "test": "node ./__tests__/vcc-utils.test.js",
+    "build": "rollup -c"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+}

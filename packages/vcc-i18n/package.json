@@ -1,0 +1,39 @@
+{
+  "name": "@ctrip/vcc-i18n",
+  "version": "1.0.0",
+  "description": "信用卡多语言组件封装",
+  "keywords": [
+    "i18n"
+  ],
+  "buildOptions": {
+    "name": "vccI18n",
+    "formats": [
+      "esm",
+      "cjs",
+      "umd"
+    ]
+  },
+  "author": "shanjunli <shanjunli@trip.com>",
+  "homepage": "http://npm.release.ctripcorp.com/package/@ctrip/vcc-i18n",
+  "license": "ISC",
+  "main": "index.js",
+  "module": "dist/vcc-i18n.esm.js",
+  "unpkg": "dist/vcc-i18n.js",
+  "directories": {
+    "src": "src",
+    "test": "__tests__"
+  },
+  "files": [
+    "src"
+  ],
+  "publishConfig": {
+    "registry": "http://registry.npm.release.ctripcorp.com"
+  },
+  "scripts": {
+    "test": "node ./__tests__/vcc-i18n.test.js",
+    "build": "rollup -c"
+  },
+  "dependencies": {
+    "@ctrip/vcc-utils": "workspace:^"
+  }
+}

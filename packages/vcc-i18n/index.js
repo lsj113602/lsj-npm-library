@@ -1,0 +1,1 @@
+module.exports = require('./dist/vcc-i18n.cjs.js')
