@@ -1,1 +1,8 @@
-const o=(o,t)=>o+t,t=(o,t)=>o-t;export{o as add,t as reduce};
+const add = (a, b) => {
+  return a + b
+};
+const reduce = (a, b) => {
+  return a - b
+};
+
+export { add, reduce };

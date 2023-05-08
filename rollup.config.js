@@ -1,21 +1,18 @@
 const commonjs = require('@rollup/plugin-commonjs')
-// import commonjs from '@rollup/plugin-commonjs'
 const path = require('path')
 
 const json = require('@rollup/plugin-json')
 const terser = require('@rollup/plugin-terser');
 
 const { nodeResolve } = require('@rollup/plugin-node-resolve')
-// const nodeResolve= require('@rollup/plugin-node-resolve')
-
-
-
 
 const pkg = process.env.TARGET
+
 const resolve = (p) => {
   return path.resolve(`${__dirname}/packages/${pkg}`, p)
 }
 const { buildOptions } = require(resolve('package.json'))
+
 const formatMap = {
   esm: {
     file: resolve(`dist/${pkg}.esm.js`),
