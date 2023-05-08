@@ -1,5 +1,5 @@
 {
-  "name": "@ctrip/vcc-i18n",
+  "name": "@lsj/vcc-i18n",
   "version": "1.0.3",
   "description": "信用卡多语言组件封装",
   "keywords": [
@@ -13,8 +13,8 @@
       "umd"
     ]
   },
-  "author": "shanjunli <shanjunli@trip.com>",
-  "homepage": "http://npm.release.ctripcorp.com/package/@ctrip/vcc-i18n",
+  "author": "shanjunli",
+  "homepage": "",
   "license": "ISC",
   "main": "index.js",
   "module": "dist/vcc-i18n.esm.js",
@@ -27,7 +27,7 @@
     "src"
   ],
   "publishConfig": {
-    "registry": "http://registry.npm.release.ctripcorp.com"
+    "registry": ""
   },
   "scripts": {
     "test1": "node ./__tests__/vcc-i18n.test.js",
@@ -37,6 +37,6 @@
     "release": "standard-version"
   },
   "dependencies": {
-    "@ctrip/vcc-utils": "workspace:^"
+    "@lsj/vcc-utils": "workspace:^"
   }
 }

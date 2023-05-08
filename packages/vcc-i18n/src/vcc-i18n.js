@@ -1,6 +1,5 @@
 'use strict';
-// import vccUtils from '@ctrip/vcc-utils';
-const vccUtils = require('@ctrip/vcc-utils');
+const vccUtils = require('@lsj/vcc-utils');
 
 module.exports = vccI18n;
 

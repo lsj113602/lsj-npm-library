@@ -1,5 +1,5 @@
 {
-  "name": "@ctrip/vcc-utils",
+  "name": "@lsj/vcc-utils",
   "version": "1.0.2",
   "description": "vcc公共工具组件",
   "keywords": [
@@ -27,7 +27,7 @@
     "src"
   ],
   "publishConfig": {
-    "registry": "http://registry.npm.release.ctripcorp.com"
+    "registry": ""
   },
   "scripts": {
     "test1": "node ./__tests__/vcc-utils.test.js",
