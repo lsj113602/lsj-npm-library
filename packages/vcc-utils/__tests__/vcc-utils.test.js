@@ -1,7 +1,7 @@
 'use strict';
 
-const vccUtils = require('..');
+const lsjUtils = require('..');
 const assert = require('assert').strict;
 
-assert.strictEqual(vccUtils(), 'Hello from vccUtils');
-console.info('vccUtils tests passed');
+assert.strictEqual(lsjUtils(), 'Hello from lsjUtils');
+console.info('lsjUtils tests passed');

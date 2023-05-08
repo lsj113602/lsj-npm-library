@@ -1,24 +1,24 @@
 {
-  "name": "@lsj/vcc-utils",
+  "name": "@lsj/lsj-utils",
   "version": "1.0.2",
-  "description": "vcc公共工具组件",
+  "description": "lsj公共工具组件",
   "keywords": [
-    "vcc-utils"
+    "lsj-utils"
   ],
   "buildOptions": {
-    "name": "vccUtils",
+    "name": "lsjUtils",
     "formats": [
       "esm",
       "cjs",
       "umd"
     ]
   },
-  "author": "shanjunli <shanjunli@trip.com>",
+  "author": "laosiji",
   "homepage": "",
   "license": "ISC",
   "main": "index.js",
-  "module": "dist/vcc-utils.esm.js",
-  "unpkg": "dist/vcc-utils.js",
+  "module": "dist/lsj-utils.esm.js",
+  "unpkg": "dist/lsj-utils.js",
   "directories": {
     "src": "src",
     "test": "__tests__"
@@ -30,7 +30,7 @@
     "registry": ""
   },
   "scripts": {
-    "test1": "node ./__tests__/vcc-utils.test.js",
+    "test1": "node ./__tests__/lsj-utils.test.js",
     "build": "rollup -c",
     "clear": "rimraf dist",
     "test": "jest",

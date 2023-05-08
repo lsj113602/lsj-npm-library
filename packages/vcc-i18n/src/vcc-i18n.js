@@ -1,11 +1,11 @@
 'use strict';
-const vccUtils = require('@lsj/vcc-utils');
+const lsjUtils = require('@lsj/lsj-utils');
 
-module.exports = vccI18n;
+module.exports = lsjI18n;
 
-function vccI18n() {
-  console.log('vccUtils:', vccUtils());
-  return 'Hello from vccI18n';
+function lsjI18n() {
+  console.log('lsjUtils:', lsjUtils());
+  return 'Hello from lsjI18n';
 }
 
 

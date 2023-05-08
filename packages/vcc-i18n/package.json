@@ -1,12 +1,12 @@
 {
-  "name": "@lsj/vcc-i18n",
+  "name": "@lsj/lsj-i18n",
   "version": "1.0.3",
   "description": "信用卡多语言组件封装",
   "keywords": [
     "i18n"
   ],
   "buildOptions": {
-    "name": "vccI18n",
+    "name": "lsjI18n",
     "formats": [
       "esm",
       "cjs",
@@ -17,8 +17,8 @@
   "homepage": "",
   "license": "ISC",
   "main": "index.js",
-  "module": "dist/vcc-i18n.esm.js",
-  "unpkg": "dist/vcc-i18n.js",
+  "module": "dist/lsj-i18n.esm.js",
+  "unpkg": "dist/lsj-i18n.js",
   "directories": {
     "src": "src",
     "test": "__tests__"
@@ -30,13 +30,13 @@
     "registry": ""
   },
   "scripts": {
-    "test1": "node ./__tests__/vcc-i18n.test.js",
+    "test1": "node ./__tests__/lsj-i18n.test.js",
     "build": "rollup -c",
     "clear": "rimraf dist",
     "test": "jest",
     "release": "standard-version"
   },
   "dependencies": {
-    "@lsj/vcc-utils": "workspace:^"
+    "@lsj/lsj-utils": "workspace:^"
   }
 }

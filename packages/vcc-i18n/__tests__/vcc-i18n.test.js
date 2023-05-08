@@ -1,7 +1,7 @@
 'use strict';
 
-const vccI18n = require('..');
+const lsjI18n = require('..');
 const assert = require('assert').strict;
 
-assert.strictEqual(vccI18n(), 'Hello from vccI18n');
-console.info('vccI18n tests passed');
+assert.strictEqual(lsjI18n(), 'Hello from lsjI18n');
+console.info('lsjI18n tests passed');

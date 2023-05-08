@@ -7,8 +7,8 @@ const createConfig = () => {
   return {
     input: 'src/index.js',
     output: {
-      name: 'vcc-utils',
-      file: `dist/vcc-utils.esm.js`,
+      name: 'lsj-utils',
+      file: `dist/lsj-utils.esm.js`,
       format: 'esm'
     },
     plugins: [

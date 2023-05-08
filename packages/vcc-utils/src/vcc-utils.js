@@ -1,7 +1,7 @@
 'use strict';
 
-module.exports = vccUtils;
+module.exports = lsjUtils;
 
-function vccUtils() {
-  return 'Hello from vccUtils';
+function lsjUtils() {
+  return 'Hello from lsjUtils';
 }

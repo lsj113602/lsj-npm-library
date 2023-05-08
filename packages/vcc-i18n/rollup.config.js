@@ -7,12 +7,12 @@ const createConfig = () => {
   return {
     input: 'src/index.js',
     output: [{
-      name: 'vcc-i18n',
-      file: `dist/vcc-i18n.esm.js`,
+      name: 'lsj-i18n',
+      file: `dist/lsj-i18n.esm.js`,
       format: 'esm'
     },{
-      name: 'vcc-i18n',
-      file: `dist/vcc-i18n.umd.js`,
+      name: 'lsj-i18n',
+      file: `dist/lsj-i18n.umd.js`,
       format: 'umd'
     },],
     plugins: [

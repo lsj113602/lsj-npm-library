@@ -1,1 +1,1 @@
-module.exports = require('./dist/vcc-i18n.cjs.js')
+module.exports = require('./dist/lsj-i18n.cjs.js')
